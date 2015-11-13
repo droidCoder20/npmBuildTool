@@ -4,8 +4,9 @@
   "description": "A small demo site for our npm scriptiong adventures",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test -u bdd -R spec",
-    "start": "node index.js"
+    "start": "node index.js",
+    "start:dev": "node index.js 4000",
+    "test": "mocha test -u bdd -R spec"
   },
   "keywords": [
     "npm",
@@ -16,7 +17,8 @@
   "license": "MIT",
   "devDependencies": {
     "mocha": "^2.3.3",
-    "should": "^7.1.1"
+    "should": "^7.1.1",
+    "supertest": "^1.1.0"
   },
   "dependencies": {
     "koa": "^1.1.2"
