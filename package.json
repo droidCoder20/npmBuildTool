@@ -1,0 +1,24 @@
+{
+  "name": "npmbuildtool",
+  "version": "1.0.0",
+  "description": "A small demo site for our npm scriptiong adventures",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test -u bdd -R spec",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "npm",
+    "scripting",
+    "yolo"
+  ],
+  "author": "Orlando Trujillo",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^2.3.3",
+    "should": "^7.1.1"
+  },
+  "dependencies": {
+    "koa": "^1.1.2"
+  }
+}
